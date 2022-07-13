@@ -11,3 +11,6 @@ class Cart:
             # cart = self.session['cart']
 
         self.cart = cart
+
+    def save(self):
+        self.session.modified = True
