@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     # Local APPs
     'accounts',
     'cart.apps.CartConfig',
+    'products.apps.ProductsConfig',
 ]
 
 SITE_ID = 1
