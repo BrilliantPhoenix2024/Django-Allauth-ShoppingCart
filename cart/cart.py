@@ -33,3 +33,13 @@ class Cart:
             self.cart[product_id]['quantity'] += quantity
 
         self.save()
+
+    def remove(self, product):
+        """
+        Remove a Product from the Cart
+        """
+        product_id = str(product.id)
+
+        if product_id in self.cart:
+            del self.cart[product_id]
+            self.save()
