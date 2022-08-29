@@ -50,6 +50,7 @@ class Cart:
 
         if product_id in self.cart:
             del self.cart[product_id]
+            messages.success(self.request, 'Product Successfully removed from Cart')
             self.save()
 
     def __iter__(self):
