@@ -14,7 +14,7 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 3.9 (Django_Allauth_PaymentServices)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.9 (Django_Allauth_ShoppingCart)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">
