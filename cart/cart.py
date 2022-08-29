@@ -1,3 +1,5 @@
+from django.contrib import messages
+
 from products.models import Product
 
 
@@ -35,6 +37,8 @@ class Cart:
             self.cart[product_id]['quantity'] = quantity
         else:
             self.cart[product_id]['quantity'] += quantity
+
+        messages.success(self.request, 'Product Successfully added to Cart')
 
         self.save()
 
