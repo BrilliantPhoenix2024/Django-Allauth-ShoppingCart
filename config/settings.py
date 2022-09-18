@@ -148,6 +148,10 @@ USE_TZ = True
 
 # If you want Persian Translation Uncomment these codes & Comment above.
 # LANGUAGE_CODE = 'fa'
+# LANGUAGES = (
+#     ('en', 'English'),
+#     ('fa', 'Persian'),
+# )
 # TIME_ZONE = 'Asia/Tehran'
 # USE_L10N = True
 # USE_I18N = True
